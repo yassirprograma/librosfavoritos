@@ -28,29 +28,40 @@
             <main>
                   <h2>Mi nombre es Kevin Yassir Fuentes García</h2>
                   <h3>Aquí presento 5 libros que he leído, han sido de mi agrado y que recomiendo ampliamente</h3>
-                  <section>
+                  <section > 
                         <h2>Mis libros recomendados</h2>
                          <!--Un article por cada pelicula-->
-                        <article>
-                              <hr>
+                        <article class="Libro1">
+                        
                               <div class="titulolibro">
                                     <h2>¿Es Dios un Matemático?</h2>
                               </div>
                               <div class="portada">
-                                    <img src="./imagenes/libro1/portadaesdiosunmatematico.jpg" alt="Portada del libro Es Dios un matemático" title="Portada del libro Es Dios un matemático">
+                                    
+                                    <figure id="PortadaLibro1">
+                                          <img  src="./imagenes/libro1/portadaesdiosunmatematico.jpg" alt="Portada del libro Es Dios un matemático" title="Portada del libro Es Dios un matemático">
+                                          <figcaption> <i>Portada del libro "Es Dios un matemático"</i> </figcaption>
+                                    </figure>
                               </div>
 
                               <div class="autoria">
-                                    <h3>Autor: Mario Livio</h3>   
-                                    <img src="./imagenes/libro1/autormariolivio.jpg" alt="Autor Mario Livio" title="Autor Mario Livio">                                       
+                                    <h3>Autor: Mario Livio</h3> 
+                                    <figure id="MarioLivio">
+                                          <img  src="./imagenes/libro1/autormariolivio.jpg" alt="Autor Mario Livio" title="Autor Mario Livio">                                       
+                                          <figcaption><i>Retrato de Mario Livio</i></figcaption>
+                                    </figure>  
+                                    
                               </div>
                               <div class="datosbiblio">
-                                    <h3>Año:</h3>
-                                    <h3>Editorial: </h3>
-                                    <h3>País:</h3>
+                                    <h3>Datos bibliográficos (versión en español):</h3>
+                                    <h4>ISBN: 978-8434469518 </h4>
+                                    <h4>Año: <time datetime="2009">2009</time></h4>  
+                                    <h4>Editorial: Ariel </h4>
+                                    <h4>País: España </h4>
                               </div>
                               <div class="personajes">
                                     <h3>Pesonajes (personas nombradas en el libro):  </h3>
+
                                     <h4>Pitágoras de Samos,
                                           Aristóteles,
                                           Platón,
@@ -63,11 +74,16 @@
                                           Einstein,
                                           Gödel,
                                           Cantor,
-                                          etc.</h4>
+                                          Bertrand Russell,
+                                          Rice,
+                                          Alan Turing,
+                                          Michio Kaku,
+                                          etc.
+                                    </h4>
                                    
                               </div>
 
-                              <div class="trama">
+                              <div class="resumen">
                                     <h3>Resumen:</h3>
                                           <p>
                                                 Es un libro escrito en prosa, no es un libro técnico, pero me causó una gran fascinación mientras lo leía, pues a través de sus páginas pude comprender el gran poder que tiene esta rama del conocimiento, y darme cuenta que es el lenguaje más importante para la humanidad. En sus primeros capítulos sí hace referencia a Dios principalmente porque se habla de los matemáticos de la antigua Grecia y la doctrina que practicaban hacia los números, para ser específicos, sobre los pitagóricos y su adoración a un ente matemática llamada Tetraktys.  
@@ -99,51 +115,81 @@
                               <div class="opinion">
                                     <h3>Opinión propia:</h3>
                                     <p>                     
-                                          Este libro lo compré por mera casualidad, pues en una ocasión con unos amigos decidimos entrar a una librería a comprar un rompecabezas, y al momento de pagar, un ejemplar con el título “¿Es Dios un matemático?” posó frente a mí. 
+                                          Con este libro quedé fascinado, lo compré por mera casualidad, pues en una ocasión con unos amigos decidimos entrar a una librería a comprar un rompecabezas, y al momento de pagar, un ejemplar con el título “¿Es Dios un matemático?” posó frente a mí. 
                                           Desde pequeño me he considerado un aficionado a las matemáticas, en el sentido de que a pesar de que no soy experto en la materia y tampoco la estudio de tiempo completo, siento un gran aprecio y pasión por todo lo que se puede hacer con ellas. 
+                                          Fue con esta obra que tuve mi primer contacto con la historia de las matemáticas, fue aquí que conocí su poder, sus límites... y realmente le terminé de agarrar más cariño a la materia.
                                     </p>
                               </div>
 
                               <div class="multimedia1">
-                                    <h4>Ilustraciones referentes al libro:</h4>
-                                    <img src="./imagenes/libro1/pitagoricos.jpg" alt="Pitagoricos" title="Pitagoricos">
-                                    <img src="./imagenes/libro1/multimedia2.jpg" alt="Ilustración de matemáticas" title="Ilustración de matemáticas">
+                                    <h3>Ilustraciones referentes al libro:</h3>
+                                    <figure id="pitagoricos">
+                                          <img  src="./imagenes/libro1/pitagoricos.jpg" alt="Pitagoricos" title="Pitagoricos">
+                                          <figcaption> <i>Secta Pitagórica en la Antigua Grecia</i> </figcaption>
+                                    </figure>
+                                    
+
+                                    <figure id="imagenMatematicas">
+                                          <img  src="./imagenes/libro1/multimedia2.jpg" alt="Ilustración de matemáticas" title="Ilustración de matemáticas">
+                                          <figcaption><i>Ilustración referente sobre matemáticas</i></figcaption>
+                                    </figure>
+
+                                    <figure id="tetraktys">
+                                          <img   src="./imagenes/libro1/tetraktys.jpg" alt="Tetraktys: entidad matemática adorada por los pitagóricos" title="Tetraktys: entidad matemática adorada por los pitagóricos">
+                                          <figcaption><i>Tetraktys: Entidad matemática adorada por los pitagóricos</i></figcaption>
+                                    </figure>
+                                   
+                                    <figure id="PropAurea">
+                                          <img  src="./imagenes/libro1/proporcionaurea.png" title="La proporción aúrea" alt="La proporción aúrea">
+                                          <figcaption> <i>La proporción aúrea: Una proporción presente en la naturaleza</i> </figcaption>
+                                    </figure>
+
                               </div>
                               
-                              <hr>
+                              
                               
                         </article>
 
                         
                         
-                        <article>           
-                              <hr>                  
+                        <article class="Libro2">           
+                                               
                               <div class="titulolibro">
                                     <h2>La gran novela de las matemáticas</h2>
                               </div>
                               <div class="portada">
-                                    <img src="./imagenes/libro2/portadalagrannovela.jpg" alt="Portada de La gran novela de las matemáticas" title="Portada de La gran novela de las matemáticas">
+                                    <figure id="PortadaLibro2">
+                                          <img  src="./imagenes/libro2/portadalagrannovela.jpg" alt="Portada de La gran novela de las matemáticas" title="Portada de La gran novela de las matemáticas">
+                                          <figcaption><i>Portada del libro "La gran novela de las matemáticas"</i></figcaption>
+                                    </figure>
+                                   
                               </div>
 
                               <div class="autoria">
                                     <h3>Autor: Mickael Launay</h3>
-                                    <img src="./imagenes/libro2/autorMickaelLaunay.jpg" alt="Autor Mickael Launay" title="Autor Mickael Launay">
+                                    <figure id="MickaelLaunay">
+                                          <img  src="./imagenes/libro2/autorMickaelLaunay.jpg" alt="Autor Mickael Launay" title="Autor Mickael Launay">
+                                          <figcaption> <i>Retrato de Mickael Launay</i></figcaption>
+                                    </figure>
+                                    
                               </div>
 
                               <div class="datosbiblio">
-                                    <h3>Año:</h3>
-                                    <h3>Editorial: </h3>
-                                    <h3>País:</h3>
+                                    <h3>Datos bibliográficos (versión en español):</h3>
+                                    <h4>ISBN: 978-6077475590 </h4>
+                                    <h4>Año: <time datetime="2018">2018</time></h4>  
+                                    <h4>Editorial: Paidós </h4>
+                                    <h4>País: México</h4>
                               </div>
 
                               <div class="personajes">
                                     <h3>Personajes:</h3>
                                     <h4>Principal: Mickael Launay</h4>
                                     <h4>  Secundarios:</h4>
-                                     <h4>Pitágoras, Al Jwarizmi, los matemáticos anónimos de la India y de China, sobre Euclides, Arquímedes, Descartes, Galileo, Bombelli, Cardano, Galois, Viéte, los Bernoulli, Leonhard Euler, Gauss, Newton, Leibniz, Gödel, Cantor, Russell, etc.</h4>
+                                     <h4>Pitágoras, Al Jwarizmi, los matemáticos anónimos de la India y de China, Euclides, Arquímedes, Descartes, Galileo, Bombelli, Cardano, Galois, Viéte, Los Bernoulli, Leonhard Euler, Gauss, Newton, Leibniz, Gödel, Cantor, Russell, etc.</h4>
                               </div>
 
-                              <div class="trama">
+                              <div class="resumen">
                                     <h3>Resumen</h3>
                                           <p>
                                                 Es una novela en que el autor va narrando en primera persona, de forma muy bonita y apasionada la historia de la matemática desde sus orígenes hasta la actualidad. En este libro pude entender que la matemática es el área del conocimiento más antigua y desarrollada que existe, incluso más antigua que la propia lógica de Aristóteles. En el primer capítulo pude comprender que la matemática no solo son números, sino que comprende una habilidad que el ser humano desarrolló al estar en contacto con la naturaleza, y que también existen otras especies que han desarrollado habilidades o tienen comportamientos matemáticos. 
@@ -186,163 +232,373 @@
 
                               <div class="multimedia1">
                                     <h3>Ilustraciones y videos referentes al libro:</h3>
-                                    <h4>Video del autor Mickael Launay presentando La gran novela de las matemáticas:</h4>
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/P5uLDZUmQIs"  title="Video del autor Mickael Launay presentando La gran novela de las matemáticas"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    
+                                    <figure id="videolibro2">
+                                          <iframe  width="560" height="315" src="https://www.youtube.com/embed/P5uLDZUmQIs"  title="Video del autor Mickael Launay presentando La gran novela de las matemáticas"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                          <figcaption> <i>Video del autor Mickael Launay presentando La gran novela de las matemáticas</i> </figcaption>
+                                    </figure>
+                                    
 
+                                    <figure id="JuicioGalileo">
+                                          <img  src="./imagenes/libro2/juiciogalileo.jpg" alt="El juicio de Galileo">
+                                          <figcaption><i>Suceso mencionado en el libro: Juicio de la inquisición a Galileo</i></figcaption>
+                                    </figure>
+
+                                    <figure id="GodelEinstein">
+                                          <img  src="./imagenes/libro2/godel_einstein-12pm9jamsi18.jpg"  title="Gödel y Einstein en una caminata en la Universidad de Princeton" alt="Gödel y Einstein en una caminata en la Universidad Princeton ">
+                                          <figcaption>
+                                                <i>Gödel y Einstein durante una caminata en la Universidad Princeton U.S.</i>
+                                          </figcaption>
+                                    </figure>
+
+                                    <figure id="PrimerNumero">
+                                          <img  src="./imagenes/libro2/matematicasenlaprehistoria.jpg" title="Primer vestigio de un número: conteo del ciclo lunar " alt="Primer vestigio de un número: conteo del ciclo lunar ">
+                                          <figcaption><i>Primer vestigio de un número: conteo del ciclo lunar </i></figcaption>
+                                    </figure>
+                                   
                               </div>
 
-                              <hr>
+                              
                         </article>
 
-                        <article>         
-                              <hr>                    
+                        <article class="Libro3">         
+                                                 
                               <div class="titulolibro">
                                     <h2>El código Da Vinci</h2>
                               </div>
                               <div class="portada">
-                                    <img src="#" alt="Portada del libro El código Da Vinci" title="Portada del libro El código Da Vinci">
+                                   
+                                    <figure id="PortadaLibro3"> 
+                                          <img  src="./imagenes/libro3/Portada.jpg" alt="Portada del libro El código Da Vinci" title="Portada del libro El código Da Vinci">
+                                          <figcaption><i>Portada del libro "El código Da Vinci"</i></figcaption>
+                                    </figure>
                               </div>
 
                               <div class="autoria">
-                                    <h3>Autor: </h3>
-                                    <img src="#" alt=" " title="Autor ">
+                                    <h3>Autor: Dan Brown</h3>
+                                    <figure id="DanBrown">
+                                          <img  src="./imagenes/libro3/AutorDanBrown.jpg" alt="Autor del libro El código Da Vinci" title="Autor del libro El código Da Vinci">
+                                          <figcaption> <i>Retrato de Dan Brown</i> </figcaption>
+                                    </figure>
+
+                                    
                               </div>
 
 			            <div class="datosbiblio">
-                                    <h3>Año:</h3>
-                                    <h3>Editorial: </h3>
-                                    <h3>País:</h3>
+                                    <h3>Datos bibliográficos (versión en español):</h3>
+                                    <h4>ISBN: 978-8408095330 </h4>
+                                    <h4>Año: <time datetime="2003">2003</time></h4>  
+                                    <h4>Editorial: Planeta </h4>
+                                    <h4>País: España </h4>
                               </div>
 
                               <div class="personajes">
                                     <h3>Personajes:</h3>
-                                    
-                                    
+                                    <h4>
+                                          Robert Langdon,
+                                          Jacques Saunière,
+                                          Sophie Neveu,
+                                          Bezu Fache,
+                                          Silas,
+                                          Obispo Manuel Aringarosa,
+                                          El Maestro,
+                                          André Vernet,
+                                          Leigh Teabing,
+                                          Rémy Legaludec,
+                                          Teniente Jérôme Collet,
+                                          Guardián de la Capilla Rosslyn,
+                                          Marie Chauvel.
+                                    </h4>                              
                               </div>
 
-                              <div class="trama">
+                              <div class="resumen">
                                     <h3>Resumen</h3>
-                                          <p>
+                                    El Código Da Vinci
+                                       
+                                    <p>El libro narra los intentos de Robert Langdon, Profesor de Iconografía Religiosa de la Universidad Harvard, para resolver el misterioso asesinato de Jacques Saunière ocurrido en el Museo del Louvre en París. El cuerpo de Saunière fue encontrado en el ala Denon del Louvre en la postura del Hombre de Vitruvio (dibujo realizado por Leonardo da Vinci) con un mensaje críptico escrito a su costado y un pentáculo dibujado en el pecho con su propia sangre. La interpretación que realiza tanto Langdon como la agente francesa Sophie Neveu, nieta de Saunière, los llevan a analizar otras obras como la Mona Lisa. El principal conflicto que presenta la novela radica alrededor de dos misterios: </p>
                                                 
-                                          </p>
-                                          
+                                    <p>¿Qué secreto intentó proteger Saunière? <br> ¿Quién planeó este asesinato?</p>
+                                    <p>Resulta que dicho secreto había sido resguardado durante siglos por varias generaciones de un grupo de personas selectas, de entre las cuales se menciona que había estado Leonardo Da Vinci (cuyas pinturas se encuentran en el mismo museo donde sucedió el asesinato) y otros personajes influyentes. Pero en el momento que se desarrollaba la historia, el hombre asesinado era el único que lo conservaba, todos los demás miembros ya habían muerto por edad, por enfermedad o por algún siniestro, y se tenía la labor de perpetuarlo.  </p>
+                                    <p> El mensaje que Saunière escribió en el suelo del Louvre tenía como línea final «P. S. Buscar a Robert Langdon». Por tal motivo Bezu Fache había fotografiado y borrado tales palabras antes de la llegada de Langdon, para que este no notara que la policía sospechaba de él. La agente Sophie Neveu vio el mensaje completo en la oficina de la policía y se dio cuenta de que era para ella, puesto que su abuelo la llamaba «Princesse Sophie» (P. S.). Por eso también supo que Langdon era inocente. Neveu informa en secreto a Langdon conminándole a que llame al servicio de mensajes telefónicos de Neveu y escuche el que ella le había dejado.</p>
+                                    <p>Tanto la nieta, como el experto en mensajes ocultos, se dan cuenta de todo el rompecabezas perfecto que aquel hombre había dejado antes de morir y recurren a descifrar aquel secreto.</p>                                                      
+                                    <p>El libro no solo se desarrolla entorno al asesinato en el museo de Louvre, sino que alterna otro escenario, en el que habla sobre el Opus Dei, organización que estaría presuntamente involucrada en una conspiración para encubrir la verdadera historia de Jesucristo y ciertos secretos del cristianismo.</p>   
+                                    <p>Cabe mencionar que el libro hace mucha referencia a las religiones paganas, su adoración a la naturaleza y las figuras matriarcales, la divinidad de la mujer y de su poder para dar vida  y se habla sobre cómo es que el patriarcado se ha encargado a lo largo de la historia de enjuiciar, castigar y minimizar a la figura femenina.</p>                                              
+                                    <p>Al tratarse de un libro de misterio, prefiero guardarme el argumento por respeto a quien esté dispuesto a leerlo.  Lo único que puedo decir, es que es un libro lleno de suspenso, es un poco largo, pero creo que vale mucho la pena, incluso ya se ha hecho una película sobre este mismo y ambos han tenido mucho éxito.</p>                                                                                                                                        
                                     
                               </div>
 
                               <div class="opinion">
                                     <h3>Opinión propia:</h3> 
                                     <p>
-
+                                          Esta obra me pareció bastante buena, creo que está muy llena de suspenso desde principio a fin. Cuando la leí me encontré con un gran dilema, pues no sabía si hacerme un
+                                          spoiler o aguantarme las ganas hasta terminar de leer este libro tan extenso. Muchas cosas que se mencionan para darle auge a la historia parecen ser verdaderas, es decir, algunas cosas
+                                          están muy bien hiladas que pareciera que fueron reales. Poco tiempo después de leerlo me animé a investigar un poco sobre aquellos hechos que más retumban en esta obra para ver si eran ciertos o no...
+                                          <br>
+                                          Es un libro hecho para aquellos lectores amantes del misterio, conspiraciones y ocultismo.
+                                          <br><br>
+                                          Nota: Hay un libro de este mismo autor que habla sobre los Illuminati.
                                     </p>
                               </div>
 
                               <div class="multimedia1">
                                     <h3>Ilustraciones y videos referentes al libro:</h3>
-                                    
+                                    <figure id="VideoLibro3">
+                                          <iframe  width="560" height="315" src="https://www.youtube.com/embed/yfxY39veLAw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                          <figcaption><i>Fragmento del audiolibro del Código Da Vinci</i></figcaption>
+                                    </figure>
+
+
+                                    <figure id="HombreVitruvio">
+                                          <img  src="./imagenes/libro3/vitruvio.jpg" title="El hombre de Vitruvio" alt="El hombre de Vitruvio">
+                                          <figcaption><i>"El hombre de Vitruvio": Pintura  de Da Vinci que se menciona en el libro  </i></figcaption>
+                                    </figure>
+
+                                    <figure id="MuseoLouvre">
+                                          <img  src="./imagenes/libro3/louvre.jpg" title="Museo de Louvre" alt="Museo de Louvre">
+                                          <figcaption><i>Museo de Louvre, Paris: Lugar donde se desarrolla parte de la historia</i></figcaption>
+                                    </figure>
+
+                                    <figure id="Gioconda">
+                                          <img  src="./imagenes/libro3/gioconda.jpg" title="La Gioconda de Da Vinci" alt="La Gioconda de Da Vinci">
+                                          <figcaption><i>La Gioconda: Obra importante mencionada en el libro</i></figcaption>
+                                    </figure>
 
                               </div>
 
-                              <hr>
+                              
                         </article>
 
-                        <article>     
-                              <hr>                        
+                        <article class="Libro4">     
+                                                     
                               <div class="titulolibro">
                                     <h2>La cruel pedagogía del virus</h2>
                               </div>
                               <div class="portada">
-                                    <img src="#" alt="Portada del libro La cruel pedagogía del virus" title="Portada del libro La cruel pedagogía del virus">
+                                   
+                                    <figure id="PortadaLibro4">
+                                          <img  src="./imagenes/libro4/cruelpedagogiaportada.png" alt="Portada del libro La cruel pedagogía del virus" title="Portada del libro La cruel pedagogía del virus">
+                                          <figcaption><i>Portada del libro "La cruel pedagogía del virus"</i></figcaption>
+                                    </figure>
                               </div>
 
                               <div class="autoria">
-                                    <h3>Autor: </h3>
-                                    <img src="#" alt=" " title="Autor">
+                                    <h3>Autor: Boaventrua de Sousa Santos</h3>
+                                    <figure id="BoaventuraSousa">
+                                          <img  src="./imagenes/libro4/boaventura_de_sousa_santos.jpg" alt="Autor" title="Autor">
+                                          <figcaption><i>Retrato de Boaventura de Sousa Santos</i></figcaption>
+                                    </figure>
+                                    
                               </div>
 
 			            <div class="datosbiblio">
-                                    <h3>Año:</h3>
-                                    <h3>Editorial: </h3>
-                                    <h3>País:</h3>
+                                    <h3>Datos bibliográficos (versión en español):</h3>
+                                    <h4>ISBN: 978-9877225990 </h4>
+                                    <h4>Año: <time datetime="2020">2020</time></h4>  
+                                    <h4>Editorial: CLACSO </h4>
+                                    <h4>País: Argentina </h4>
                               </div>
 
                               <div class="personajes">
                                     <h3>Personajes:</h3>
-                                    
+                                    <h4>No hay un persona explícito, solo el autor</h4>
                                     
                               </div>
 
-                              <div class="trama">
-                                    <h3>Resumen</h3>
-                                          <p>
-                                                
-                                          </p>
-                                          
+                              <div class="resumen">
+                                    <h3>Resumen / análisis </h3>
+                                    <p>A continuación, presento un fragmento de un análisis que hice hace poco sobre este libro.</p> 
+                                    <p>La Cruel Pedagogía del Virus de Boaventura de Sousa Santos, es un libro muy interesante de índole social, política y económica que atañe a la actual pandemia por Covid-19 y la forma tan complicada en que esta se encuentra dando lecciones a la humanidad. La propuesta de este autor resulta de suma importancia para darnos cuenta de la realidad de esta crisis, las causas, consecuencias y debates existentes sobre cómo las sociedades y sus gobiernos están llevando dicha situación, además de las posibles soluciones a este mal. </p>
+                                    <p>Boaventura abre su libro planteando una pregunta muy puntual: ¿qué conocimiento potencial proviene de la pandemia del coronavirus? A modo de empezar a destacar y analizar los fenómenos que se han dado en la sociedad desde que el coronavirus empezó a extenderse, y con ello, realizar una crítica al sistema económico capitalista y al neoliberalismo, que desde hace unas décadas se ha convertido en su variante más dominante en el mundo. </p>
+                                    <p>La pandemia, contrario a lo que se pensaba, ha sido discriminatoria, pues ha caído con mayor fuerza sobre aquellos grupos que ya tenían una vulnerabilidad especial previa a la llegada del virus, principalmente en aquellos cuya vulnerabilidad era económica, racial o sexual.</p>
+                                    <p>En pocas palabras, el autor busca dar a entender que la  problemática del coronavirus es consecuencia del modelo de vida que ha sido impuesto por el capitalismo, las transformaciones industriales y la ambición por el poder, aunque la problemática central no es realmente el coronavirus, sino la permanente crisis ecológica de la que ha brotado a modo de castigo para los humanos, pues nos hemos sentidos dueños del planeta cuando, como especie humana, apenas somos el 0.01% de la vida existente, nos hemos encargado de explotar y contaminar los recursos, no hemos tenido el suficiente respeto a la Madre Tierra, hemos cometido delitos que no han quedado ni  van a quedar impunes, claro está que las catástrofes naturales han cobrado más vidas que el virus de hoy en día.</p>
+                                    <p>La lección más obvia que nos da la pandemia y este libro es que como modelo social, el capitalismo no tiene futuro, y es necesario buscar alternativas, pues se ha visto que las principales dificultades en tiempos de Covid se dan por este modelo adoptado. La privatización de las cosas, en especial de la salud y servicios primarios ha hecho más difícil la pandemia de lo que pudo haber sido. Debe optarse por abandonar al capitalismo como el modelo que dicta la lógica de acción del Estado y la sociedad, y es necesario que deje de tomarse como el único modelo económico de producción, distribución y consumo.</p>
+                                    <p>El autor cierra su libro diciendo que es necesaria una rearticulación entre los procesos políticos y civilizadores para lograr encaminar a la humanidad a una posición de humildad ante el planeta que habita, y de manera metafórica dice que superaremos y seremos libres de la cuarentena del capitalismo y todas las surjan dentro de él,  cuando veamos a nuestro planeta como nuestro hogar,  y a la naturaleza como nuestra madre, dándole el debido amor y respeto que se merece. </p>                                                                                          
                                     
                               </div>
 
                               <div class="opinion">
                                     <h3>Opinión propia:</h3> 
                                     <p>
-
+                                          Si bien, este libro es muy nuevo (fue publicado a mediados de 2020), pero considero que me dejó muchas enseñanzas, pues rara vez me ponía a pensar sobre cómo es que el modelo económico al que estamos acostumbrados podría beneficiarnos momentáneamente, pero también someternos a tantas diferencias y causarnos tantos problemas ecológicos.
                                     </p>
+                                    <P>
+                                          En lo personal, creo que el ser humano debe sensibilizarse y dejar su egoísmo a un lado, ya nos es momento para buscar la comodidad y el poder. Como estudiante y futuro profesional de la tecnología he llegado a la conclusión de que debemos estar en pro de un cambio en el sistema, considero que debido al peso que han adoptado las tecnologías de la información hoy en día, es posible unir fuerzas con las demás áreas de la ciencia, para trabajar con ética y cultura ecológica, es decir optando por realizar avances en los procesos de producción  o desarrollar tecnologías que sean sustentables ambientalmente, así como ser portavoces del conocimiento que ayude a mejorar la situación global actual.
+                                    </P>
                               </div>
 
                               <div class="multimedia1">
                                     <h3>Ilustraciones y videos referentes al libro:</h3>
-                                    
+                                    <figure id="Coronavirus">
+                                          <img  src="./imagenes/libro4/coronavirus.jpg" alt="Coronavirus: causante de la actual pandemia" title="Coronavirus: causante de la actual pandemia">
+                                          <figcaption><i>Coronavirus: Causante de la actual pandemia</i></figcaption>
+                                    </figure>
+
+                                    <figure  id="Capitalismo"> 
+                                          <img src="./imagenes/libro4/Capital.png" alt="Ilustración alusiva al capitalismo" title="Ilustración alusiva al capitalismo">
+                                          <figcaption><i>Ilustración alusiva al capitalismo</i></figcaption>
+                                    </figure>
+
+                                    <figure id="ManoInvisible">
+                                          <img  src="./imagenes/libro4/manoinvisible.png" alt="Mano invisible de Adam Smith: base del capitalismo neoliberal" title="Mano invisible de Adam Smith: base del capitalismo neoliberal">
+                                          <figcaption><i>Mano invisible de Adam Smith: Base del capitalismo neoliberal</i></figcaption>
+                                    </figure>
+
+                                    <figure id="CapitalismoCrisis"> 
+                                          <img  src="./imagenes/libro4/Capitalismo.jpg" alt="Capitalismo: causante de las crisis ecológicas, económicas y sociales" title="Capitalismo: causante de las crisis ecológicas, económicas y sociales">
+                                          <figcaption><i>Capitalismo: Causante de las crisis ecológicas, económicas y sociales</i></figcaption>
+                                    </figure>
+
+
+                                    <figure id="VideoLibro4">
+                                          <iframe  width="560" height="315" src="https://www.youtube.com/embed/3SEducajT3s" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                          <figcaption><i>Entrevista al autor Boaventura de Sousa</i></figcaption>
+                                    </figure>
 
                               </div>
 
-                              <hr>
+                              
                         </article>
 
-                        <article>      
-                              <hr>                       
+                        <article class="Libro5">      
+                                                     
                               <div class="titulolibro">
                                     <h2>Los cuatro acuerdos</h2>
                               </div>
                               <div class="portada">
-                                    <img src="#" alt=" " title="">
+                                    <figure id="PortadaLibro5">
+                                          <img  src="./imagenes/libro5/portada4acuerdos.jpg" alt="Portada del libro Los cuatro acuerdos" title="Portada del libro Los cuatro acuerdos">
+                                          <figcaption> <i>Portada del libro "Los cuatro acuerdos"</i>  </figcaption>
+                                    </figure>
+                                    
                               </div>
 
                               <div class="autoria">
-                                    <h3>Autor: </h3>
-                                    <img src="#" alt=" " title="Autor">
+                                    <h3>Autor: Miguel Ruiz</h3>
+                                    <img id="MiguelRuiz" src="./imagenes/libro5/autor.jpeg" alt="Autor Miguel Ruiz" title="Autor Miguel Ruiz ">
                               </div>
 
                               <div class="datosbiblio">
-                                    <h3>Año:</h3>
-                                    <h3>Editorial: </h3>
-                                    <h3>País:</h3>
+                                    <h3>Datos bibliográficos (versión en español):</h3>
+                                    <h4>ISBN: 978-6079513979 </h4>
+                                    <h4>Año: <time datetime="1997">1997</time></h4>  
+                                    <h4>Editorial: Urano </h4>
+                                    <h4>País: México </h4>
                               </div>
-                              
+
                               <div class="personajes">
                                     <h3>Personajes:</h3>
                               </div>
 
-                              <div class="trama">
+                              <div class="resumen">
                                     <h3>Resumen</h3>
-                                    <p>
+                                    <p>Los cuatro acuerdos es un libro que transmite mucha sabiduría (obviamente para aquellos que estén dispuestos a aprender), una sabiduría que proviene de la cultura Tolteca pero que a la vez es compartida en muchas otras. </p>
+                                    <p>El autor abre este libro hablando sobre la domesticación a la que todos los seres humanos nos sometemos cuando somos pequeños, es decir, de aquellas cosas que en nuestra inocencia aprendemos de los adultos. </p>
+                                    <p>La domesticación es tan poderosa que, en un determinado momento de nuestra vida, ya no necesitamos que nadie nos domestique. No necesitamos que mamá o papá, la escuela o la iglesia nos domestiquen. Estamos tan bien entrenados que somos nuestro propio domador. Somos un animal auto domesticado. Ahora nos domesticamos a nosotros mismos según el sistema de creencias que nos transmitieron y utilizando el mismo sistema de castigo y recompensa. Nos castigamos a nosotros mismos cuando no seguirnos las reglas de nuestro sistema de creencias; nos premiamos cuando somos buenos. </p>
+                                    <p>El problema de la domesticación es que a veces viene cargada del veneno y miedo, de las actitudes de egoísmo, victimismo, egocentrismo y machismo que los adultos nos transmiten, pero no solo es eso, sino que la domesticación nos vuelve jueces de todo, mejor dicho, una voz que juzga todo se apodera de nuestra vida, nos alerta de lo malo, de lo peligroso, de aquello a lo que le debemos tener miedo. Y ahí está el problema, que muchos crecemos y vamos por la vida con los miedos y creencias que aprendimos. </p>
+
+                                    
+                                    <p>En pocas palabras, en el primer par de capítulos, el libro habla sobre la realidad que vive el ser humano, las creencias que adquiere, los miedos, las heridas emocionales,  el veneno que absorbemos cuando no perdonamos y cómo influyen todas estas cosas en nuestra vida.</p>
+                                    <p>Después de eso, el autor presenta los 4 acuerdos que los Toltecas recomendaban para llevar una vida plena:</p>
+                                    
+                                    
+                                         <p> <b>1. Sé impecable con tus palabras</b>  </p> 
+                                         <p>Este acuerdo es uno de los más importantes y complicados. Se trata de manejar de forma correcta tus palabras. 
+                                            Aunque suene simple, muchas veces solemos decir cosas sin pensar y herir (aunque esa no sea nuestra intención). ¡Las palabras son tan poderosas! y la forma en que las uses te puede liberar o encarcelar. Es decir, tus palabras o pensamientos tienen tanto poder que  puede cambiar una vida o destruirla.
+                                         </p>
+                                         
+
+                                         <p> <b>2. No te tome nada personalmente</b> </p> 
+                                         <p>Por desgracia muchas veces las personas suelen creer que son responsables de todas las cosas que suceden. El motivo por el que terminas con este tipo de pensamientos se llama importancia personal, 
+                                          esta es la expresión más grande de egoísmo, ya que piensas que todos y todo gira a tu alrededor. 
+                                          Para liberarte de estos pensamientos debes entender que nada de lo que hacen los demás tiene que ver contigo. 
+                                          Lo que las otras personas dicen, hacen o piensan se basan en los acuerdos que ellos mismos han establecido en su mente a lo largo de sus vidas.  
+                                          Cuando sabes lo que eres y lo que vales, te das cuenta que no necesitas darle importancia esta información o buscar aceptación en otros lados. Si sabes esto nada de lo que te digan podrá afectarte.
+                                        </p>
+
+                                         <p> <b>3. No hagas suposiciones</b> </p> 
+                                         <p>
+                                          Todas los seres humanos en algún momento terminan haciendo suposiciones sobre cualquier cosa en su vida, el problema es que al hacerlo, crees que lo que supones es cierto y terminas creando un drama de la nada.
+                                          Por algo se dice que hacer una suposición es buscar un problema, si te pones a repasar todas tus tristezas y malos ratos te darás cuenta que la mayoría surgen por algún tipo de suposición.
                                           
-                                    </p>
+                                         </p>
+                                         <p> <b>4. Haz siempre lo máximo que puedas</b> </p> 
+                                         <p>
+                                          Miguel Ruiz dice que este acuerdo permite que los otros 3 se vuelvan un hábito en tu vida. El cuarto acuerdo se enfoca en: dar tu mejor esfuerzo sin importar las circunstancias o el resultado.
+                                          Seguro alguna vez has escuchado la frase “Haz lo mejor que puedas”. 
+                                          ¿Pero sabes lo que significan esas palabras?.
+                                         </p>
+                                          
+                                          
+                                    
+                                    <p>Realmente me limitaré a no escribir más sobre este libro, ni a describir detalladamente en qué consisten los cuatro acuerdos porque considero que alguien más podría tener la intención de leerlo y se perdería de toda la magia que guardan sus páginas. </p>
+                                    
+                                    
+
+
                               </div>
 
                               <div class="opinion">
                                     <h3>Opinión propia:</h3> 
                                     <p>
-
+                                          Este libro ha tenido un fuerte impacto en mi persona, me ha permitido esclarecer muchas cosas que han resultado difíciles o confusas
+                                          a lo largo de mi vida, sencillamente lo recomiendo para todas las personas, principalmente para aquellas mayores de 17 o 18 años. 
+                                          Es un libro magnífico, que puede ayudar mucho en el crecimiento personal, pero los conocimientos que el autor transmite, solo tendrán valor
+                                          cuando la persona que lea este libro esté dispuesta a tomarlos y aplicarlos con constancia, nada es mágico, pero sencillamente las enseñanzas
+                                          de los Toltecas son un regalo. 
+                                          
+                                          <br>
+                                          <br>
+                                          Nota: Existe otro libro llamado La maestría del amor, del mismo autor que Los cuatro acuerdos. Ambos son complemento, quien esté dispuesto
+                                          a leer ambos, tendrá una recompensa de por vida.
                                     </p>
                               </div>
 
                               <div class="multimedia1">
                                     <h3>Ilustraciones y videos referentes al libro:</h3>
+
+                                    <figure id="Toltecas">
+                                          <img  src="./imagenes/libro5/toltecas.jpg" alt="Cultura tolteca" title="Cultura tolteca">
+                                          <figcaption>
+                                                <i>Cultura Tolteca</i>
+                                          </figcaption>
+                                    </figure>
+
+                                    <figure id="Miedo">
+                                          <img  src="./imagenes/libro5/miedo.jpg" alt="">
+                                          <figcaption><i>Miedo: Instinto de supervivencia que en exceso enferma la mente</i> </figcaption>
+                                    </figure>
+
+                                    <figure id="GigantesTula" >
+                                          <img src="./imagenes/libro5/Tula.jpg" alt="Gigantes de Tula" title="Gigantes de Tula">
+                                          <figcaption>
+                                                <i>Tula: Zona arqueológica de la cultura Tolteca</i>
+                                          </figcaption>
+                                    </figure>                                    
+
+                                    <figure id="Hitler">
+                                          <img  src="./imagenes/libro5/hitler.jpg" alt="Adolph Hitler" title="Adolph Hitler">
+                                          <figcaption>
+                                                <i>Adolph Hitler: Sus palabras tuvieron el poder de dar origen a un genocidio</i>                                         
+                                          </figcaption>
+
+                                    </figure>
+
+                                    <figure id="VideoLibro5">
+                                          <iframe  width="560" height="315" src="https://www.youtube.com/embed/-_TJSP_JSAM" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                          <figure><i>Audiolibro: Los cuatro acuerdos</i></figure>
+                                    </figure>
+
+                                    
+
                               </div>
 
                              
-                              <hr>
+                              
                         </article>
 
                         
+
+
                   </section>
 
 
@@ -353,7 +609,32 @@
             </aside>
 
             <footer>
+                  <br>
+                  <br>
+                  
 
+                  <br>
+                  <h3 >
+                      Esta página ha sido creada por yassirprograma
+                  </h3>
+        
+                  <h3 >
+                    Visita mi repositorio de proyectos en:
+                  </h3>
+                  <br>
+                  <figure id="logogithubpie">
+                        <img  alt="logo github"  src="./imagenes/pie/gitocto.png" width="200"  > 
+                  </figure>
+                  
+        
+                  <br>
+        
+                  <a href="https://github.com/yassirprograma" target="_blank" > <h3  >https://github.com/yassirprograma</h3>  </a>
+                  <br>
+                  <br>
+        
+                  <br>
+                  <br>
             </footer>
 
 
