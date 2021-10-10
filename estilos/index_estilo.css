@@ -1,73 +1,165 @@
-/*
-body{
-      background-color:aquamarine;
-}
-*/
-/*
-p{
-      padding-left: 1%;
-      padding-right: 1%;
-      text-align: justify;
-}
-*/
+/*PRACTICA 2: USO DE CSS, PROPIEDADES BÁSICAS Y SELECTORES*/
 
-/*Esto solo lo pongo para ver los límites*/
-/*
-article>div{ 
+*{
+      /*Selector universal*/
       
-      border-width: 2px;
+}
+
+body{ /*selector básico por etiqueta*/
+      background-color: aquamarine;
+}
+
+p{ /*Selector básico por etiqueta*/
+      text-align: justify; /* quiero que todo parrafo esté justificado*/
+      margin-left:10px;
+      margin-right:10px;
+}
+
+
+header, nav{ /*selector avanzado por agrupamiento*/  
+      text-align: center;
+}
+
+section{ /*Selector básico por etiqueta*/
+      border-width: 10px;
       border-style: solid;
       border-color:darkred;
 }
-*/
 
-/*
-.autoria{
-      background-color:chartreuse;
+#inicioseccion{ /*selector básico por identificador*/
+      text-align: center;
+
 }
-*/
 
-/*selector de varios */
-/*
-.autoria, .personajes{ 
-      background-color:chartreuse;
+h2#tituloseccion{ /*selector básico MIX*/
+      color:indigo;
+      font-weight:900;
 }
-*/
 
-
-/*rango de 500 a 900*/
-      /*grosor de la letra*/
-
-/*      
-h1,h2,h3{
-      font-weight: 900; 
+#presentacion{ /*selector básico por identificador*/
+      /*Aplicando un poco del modelo de cajas (margin, padding, border) y de unidades relativas y absolutas*/
+      text-align: center;
+      padding: 2%; /*unidades relativas*/
+      margin: 2%; /*unidad relativa*/
+      border-width: 10px; /*unidad absoluta*/
+      border-style: solid;
+      border-color:dodgerblue;
 }
-*/
 
-/*significa que a cada div descendiente de article, le aplica */
-      /*
-            a todos los hijos, nietos, bisnietos, etc
+article{
+      width: 1000px;
+      overflow:auto;
+}
+
+.titulolibro{ /*Selector básico por clase*/
+      text-align: center;
+}
+
+.autoria{ /*Selector básico por clase*/
+      color: darkblue;
+}
+
+
+footer{
+      background-color: mediumaquamarine;
+      text-align: center;
+}
+
+
+
+article div{ /*selector avanzado por descendiente*/
+      /*todos los div descendientes de section quiero que tengan un borde y un pequeño margen*/
+      border-width: 3px; /*unidad absoluta*/
+      border-style: solid;
+      border-color:magenta;
+        /* 1% del padre que es section*/
+
+        /*NOTA: MARGIN NO ES PARA POSICIONAR*/
+       /* 
+      margin-top: 10px;
+      margin-right: 5px;
+      margin-bottom: 30px;
+      margin-left: 30px ;
       */
-/*
-article div{  
-      background-color: darkgoldenrod;
-
-}
-*/
-
-
-/*
-            significa que a cada div hijo de  article se le aplica
-
-            Ni nietos ni bisnietos, solo hjos (descendientes directos)
-
-      */
-
-/*
-article>div{
+      margin: 10px 0px 30px 0px; /*alternativa top right bottom left  (sentido horario)   */
+      
+      padding-top: 10px;
+      padding-left: 5px;
+      width:90%;
+      box-sizing: border-box;
       
 }
-*/
+
+section .portada{ /*selector avanzado por descendiente*/
+      width: 30%; /*quiero que el div de portada tenga un ancho del 30% de su padre que es section*/
+}
+section .autoria{ /*selector avanzado por descendiente*/
+      width: 30%; /*quiero que el div de autoria tenga un ancho del 30% de su padre que es section*/
+}
+
+.navegacion span{  /*selector avanzado por descendiente*/
+      /*los span del menu los quiero como rectángulitos de color*/
+      background-color:magenta;
+      font-size:x-large;
+      border-style: solid;
+      border-color:magenta;
+      
+
+}
+.navegacion li{
+      
+}
+
+.portada img{ /* selector avanzado por descendiente*/
+      width: 80%;  /*la(s) img de la portada quiero que sean del 80% del div portada*/
+}
+
+.autoria img {
+      width: 80%;
+}
+
+.multimedia1 img{ /* selector avanzado por descendiente*/
+      /*quiero que todas las imagenes de multimedia tengan el mismo ancho, 20% del ancho de la seccion  */
+      width: 20%;
+      
+}
+
+#tituloseccion>span{  /* selector avanzado por HIJO*/
+      background-color:khaki;
+}
+
+#Libro1>div{
+      background-color: orange;
+}
+
+#Libro2>div{
+      background-color:plum;
+}
+
+.navegacion>ul>li{ /*selector avanzado por hijo de otro hijo*/
+      list-style: none;
+      margin: 10px;
+}     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

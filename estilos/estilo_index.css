@@ -1,0 +1,17 @@
+*{
+      box-sizing: border-box;
+}
+
+body{ /*selector básico por etiqueta*/
+      background-color: aquamarine;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-left: 0px;
+      margin-bottom: 0px; /*    ESTO ES UN ESTILO PARA QUE FUNCIONE BIEN CON LOS NAVEGADORES*/
+      padding: 0;
+}
+
+p{
+      text-align: justify;
+}
+

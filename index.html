@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+      <!DOCTYPE html>
 <html lang="es">
       <head>
             <meta charset="utf-8">
             <title>Mis libros</title>
             <link rel="stylesheet"
              type="text/css"
-             href="./estilos/index_estilo.css">
+             href="./estilos/estilo_index.css">
             
       </head>
 
@@ -17,27 +17,33 @@
             <nav class="navegacion">
                   <h2>Menú de libros</h2>
                   <ul>
-                        <li><a href="#">¿Es Dios un matemático?</a></li>
-                        <li><a href="#">La gran novela de  las matemáticas</a></li>
-                        <li><a href="#">El código Da Vinci</a></li>
-                        <li><a href="#">La cruel pedagogía del virus</a></li>
-                        <li><a href="#">Los cuatro acuerdos</a></li>
+                        <li><a href="#Libro1"> <span>¿Es Dios un matemático?</span> </a></li>
+                        <li><a href="#Libro2"><span>La gran novela de  las matemáticas</span> </a></li>
+                        <li><a href="#Libro3"><span>El código Da Vinci</span> </a></li>
+                        <li><a href="#Libro4"><span>La cruel pedagogía del virus</span> </a></li>
+                        <li><a href="#Libro5"><span>Los cuatro acuerdos</span> </a></li>
                   </ul>
             </nav>
 
             <main>
-                  <h2>Mi nombre es Kevin Yassir Fuentes García</h2>
-                  <h3>Aquí presento 5 libros que he leído, han sido de mi agrado y que recomiendo ampliamente</h3>
-                  <section > 
-                        <h2>Mis libros recomendados</h2>
+                  <div id="presentacion">
+                        <h2>Mi nombre es Kevin Yassir Fuentes García, alumno de la <abbr title="Escuela Superior de Cómputo">ESCOM</abbr> </h2>
+                        <h3>En esta página web presento 5 libros que he leído, han sido de mi agrado y que recomiendo ampliamente</h3>
+                  </div>
+                  
+
+                  <section> 
+                              <div id="inicioseccion">
+                                    <h2 id="tituloseccion"> <span>Mis libros recomendados</span> </h2>
+                              </div>
                          <!--Un article por cada pelicula-->
-                        <article class="Libro1">
+                        <article id="Libro1">
                         
                               <div class="titulolibro">
                                     <h2>¿Es Dios un Matemático?</h2>
                               </div>
+                              
                               <div class="portada">
-                                    
                                     <figure id="PortadaLibro1">
                                           <img  src="./imagenes/libro1/portadaesdiosunmatematico.jpg" alt="Portada del libro Es Dios un matemático" title="Portada del libro Es Dios un matemático">
                                           <figcaption> <i>Portada del libro "Es Dios un matemático"</i> </figcaption>
@@ -82,19 +88,25 @@
                                     </h4>
                                    
                               </div>
+                  
 
                               <div class="resumen">
                                     <h3>Resumen:</h3>
                                           <p>
-                                                Es un libro escrito en prosa, no es un libro técnico, pero me causó una gran fascinación mientras lo leía, pues a través de sus páginas pude comprender el gran poder que tiene esta rama del conocimiento, y darme cuenta que es el lenguaje más importante para la humanidad. En sus primeros capítulos sí hace referencia a Dios principalmente porque se habla de los matemáticos de la antigua Grecia y la doctrina que practicaban hacia los números, para ser específicos, sobre los pitagóricos y su adoración a un ente matemática llamada Tetraktys.  
+                                                Es un libro escrito en prosa, no es un libro técnico, pero me causó una gran fascinación mientras lo leía, pues a través de sus páginas pude comprender el gran poder que tiene esta rama del conocimiento, y darme cuenta que es el lenguaje más importante para la humanidad. En sus primeros capítulos sí hace referencia a Dios principalmente porque se habla de los matemáticos 
+                                                de la antigua Grecia y la doctrina que practicaban hacia los números, para ser específicos, sobre los pitagóricos y su adoración a un ente matemática llamada <dfn>Tetraktys</dfn>, (Τετρακτύς en griego) esta es una figura triangular que consiste en diez puntos ordenados en cuatro filas, con uno, dos, tres y cuatro puntos en cada fila. 
+                                                El uno era el punto; el dos, la recta; el tres, la superficie; y el cuatro, el volumen. Y los cuatro sumados daban el número diez, que es el número perfecto. 
+                                                Los pitagóricos la consideraban la clave de todas las armonías que gobiernan el mundo, pues creían también, que los números eran la esencia de las cosas. 
+                                                
                                           </p>
                                           
                                           <p>
                                                 Mucho se habla sobre la relación de las matemáticas con la lógica Aristotélica, es decir, la forma de axiomatizar y cómo se utilizan las estructuras lógicas para demostrar hechos matemáticos, pero luego el autor llega a la conclusión de que la lógica solo fue combustible para que la matemática, con el paso de poco más de 4 milenios, se haya desarrollado de manera sorprendente. 
                                           </p>
                                           
+                                          
                                           <p>
-                                                En los demás capítulos el autor se dedica a hablar sobre muchos personajes y sucesos importantes para la matemática, habla sobre Platón, Euclides, Arquímedes, Galileo, Descartes, Newton, Leibniz etc. Hace mucho énfasis en la forma en que la matemática encaja para poder explicar el universo y la naturaleza, a tal grado de entrar en debate sobre si las matemáticas fueron inventadas por Dios para crear el universo y el ser humano solo las descubrió,  o si las matemáticas son completamente una invención del ser humano. De hecho se llega a mencionar que las matemáticas están presentes en la naturaleza sin necesidad de que el ser humano las observe, es decir que la mente del ser humano no necesita estar presente para que las matemáticas estén ahí, incluso dice que la forma en que la mente funciona puede ser modelada matemáticamente.
+                                                En los demás capítulos el autor se dedica a hablar sobre muchos personajes y sucesos importantes para la matemática, habla sobre Platón, Euclides, Arquímedes, Galileo, Descartes, Newton, Leibniz etc. Hace mucho énfasis en la forma en que la matemática encaja para poder explicar el universo y la naturaleza, a tal grado de entrar en debate sobre si las matemáticas fueron inventadas por Dios para crear el universo y el ser humano solo las descubrió,  o si las matemáticas son completamente una invención del ser humano y menciona de modo contrastante las ideas de distintos científicos y filósofos, dando a entender que ni siquiera estas personas se han puesto de acuerdo sobre si se inventó o se descubrió.   De hecho se llega a mencionar que las matemáticas están presentes en la naturaleza sin necesidad de que el ser humano las observe, es decir que la mente del ser humano no necesita estar presente para que las matemáticas estén ahí, incluso dice que la forma en que la mente funciona puede ser modelada matemáticamente.
                                           </p>
                                           
                                           <p>
@@ -115,11 +127,60 @@
                               <div class="opinion">
                                     <h3>Opinión propia:</h3>
                                     <p>                     
-                                          Con este libro quedé fascinado, lo compré por mera casualidad, pues en una ocasión con unos amigos decidimos entrar a una librería a comprar un rompecabezas, y al momento de pagar, un ejemplar con el título “¿Es Dios un matemático?” posó frente a mí. 
+                                          Con este libro quedé fascinado, lo compré por mera casualidad, pues en una ocasión con unos amigos decidimos entrar a una librería a comprar un rompecabezas, y al momento de pagar, un ejemplar con el título “¿Es Dios un matemático?” posó frente a mí.
+                                          Es un libro que no solo presenta mucha historia relevante, sino que se dedica a discutir o debatir ideas referentes a la matemática, citando a múltiples personas ilustres. En pocas palabras es un libro que nutre, que contrasta y que por dichas razones, agrada bastante al lactor.
                                           Desde pequeño me he considerado un aficionado a las matemáticas, en el sentido de que a pesar de que no soy experto en la materia y tampoco la estudio de tiempo completo, siento un gran aprecio y pasión por todo lo que se puede hacer con ellas. 
                                           Fue con esta obra que tuve mi primer contacto con la historia de las matemáticas, fue aquí que conocí su poder, sus límites... y realmente le terminé de agarrar más cariño a la materia.
                                     </p>
+
+                                    <p><b>Hay unos cuantos fragmentos de este libro que me parecieron muy relevantes y que creo que merece la pena citar:</b></p>
+                                    
+                                    <p> <cite>Mario Livio</cite> dice:</p>
+                                    <blockquote >         
+                                          <p>
+                                                La filosofía está escrita en el gran libro que está siempre abierto ante nuestros ojos (me refiero al universo) pero que no podemos comprender si no aprndemos 
+                                                en primer lugar su lenguaje y comprendemos los caracteres en los que está escrito, Está escrito en el lenguaje de la matemática, y sus caracteres son triángulos, 
+                                                círculos  y otras figuras geométricas, razones, números y fórmulas, sin las cuales no es humanamente posible comprender ni una sola de sus palabras, y sin las cuales 
+                                                se deambula vanamente por un laberinto de tinieblas.
+                                          </p>
+                                          <p>
+                                                Siglos antes de que se formulase siquiera la pregunta de por qué la matemática era tan eficaz, ¡Galileo creia poseer la respuesta! Para él 
+                                                la matemática no era más que el idioma del universo. Para comprender el universo, decía, es necesario hablar su idioma. Dios es evidentemente un matemático.
+                                          </p>                              
+                                    </blockquote>
+                                    
+
+
+
+                                    <p>En otro de sus capítulos <cite>Mario Livio</cite>  menciona:</p>
+                                    <blockquote>
+                                          <p>David Hilbert asignó la tarea de garantizar la solidez de los cimientos de la matemática a una nueva disciplina que denominó <dfn>metamatemática</dfn>, esta 
+                                           trataba el uso de los propios métodos de análisis matemático para demostrar la consistencia de todo el proceso formal de derivación de teoremas a partir de axiomas
+                                          mediante estrictas reglas de inferencia. Dicho de otro modo, Hilbert opinaba que podía demostrar matemáticamente que la matemática funcionaba para cualquier problema
+                                          </p>
+                                          <p>...Pero de un solo golpe Kurt Gödel, que contaba con solo 24 años, atravesó con una estaca el corazón del formalismo matemático, cuando publicó sus <i>Teoremas de incompletitud</i>  </p>
+                                          <p>En su obra, los dos teoremas estaban enunciados y demostrados en un lenguaje estrictamente matemático, pero de manera simplificada son: </p>
+                                          <p>
+                                                1. Cualquier formalización consistente S en la que se puedan efectuar operaciones aritméticas elementales, es incompleta respecto de los enunciados de la aritmética 
+                                                elemental; esto es, hay enunciados cuya verdad o falsedad no se puede demostrar dentro de S.
+      
+                                          </p>
+                                          <p>
+                                                2. Para cualquier formalización consistente S en la que se puedan efectuar operaciones aritméticas elementales, no es posible probar la consistencia de S dentro de S.   
+                                          </p>
+
+                                          <p>Los teoremas de incompletitud demostraban que el plan formalista de Hilbert estaba esencialmente condenado al fracaso desde el principio. Gódel demostró 
+                                             que cualquier sistema formal lo bastante potente como para tener algún interés es, de forma inherente, o bien <i>incompleto</i>  o bien <i>inconsistente</i>. 
+                                             Es decir, en el mejor de los casos, siempre habrá enunciados dentro del sistema formal cuya verdad o falsedad no podrán demostrarse. En el peor de los casos, el sistema generará contradicciones.
+                                          </p>
+
+
+
+                                    </blockquote>
+
                               </div>
+
+                              
 
                               <div class="multimedia1">
                                     <h3>Ilustraciones referentes al libro:</h3>
@@ -152,7 +213,7 @@
 
                         
                         
-                        <article class="Libro2">           
+                        <article id="Libro2">           
                                                
                               <div class="titulolibro">
                                     <h2>La gran novela de las matemáticas</h2>
@@ -186,13 +247,14 @@
                                     <h3>Personajes:</h3>
                                     <h4>Principal: Mickael Launay</h4>
                                     <h4>  Secundarios:</h4>
-                                     <h4>Pitágoras, Al Jwarizmi, los matemáticos anónimos de la India y de China, Euclides, Arquímedes, Descartes, Galileo, Bombelli, Cardano, Galois, Viéte, Los Bernoulli, Leonhard Euler, Gauss, Newton, Leibniz, Gödel, Cantor, Russell, etc.</h4>
+                                     <h4>Pitágoras, Al Jwarizmi, los matemáticos anónimos de la India y de China, Euclides, Arquímedes, Descartes, Galileo, Bombelli, Cardano, Galois, Viéte, Los Bernoulli, Leonhard Euler, Gauss, Newton, Leibniz, Gödel, Cantor, Russell, Ada Lovelace, Babbage, Alan Turing, George Polya, etc.</h4>
                               </div>
 
                               <div class="resumen">
                                     <h3>Resumen</h3>
                                           <p>
-                                                Es una novela en que el autor va narrando en primera persona, de forma muy bonita y apasionada la historia de la matemática desde sus orígenes hasta la actualidad. En este libro pude entender que la matemática es el área del conocimiento más antigua y desarrollada que existe, incluso más antigua que la propia lógica de Aristóteles. En el primer capítulo pude comprender que la matemática no solo son números, sino que comprende una habilidad que el ser humano desarrolló al estar en contacto con la naturaleza, y que también existen otras especies que han desarrollado habilidades o tienen comportamientos matemáticos. 
+                                                Es una novela en que el autor va narrando, de forma muy bonita y apasionada la historia de la matemática desde sus orígenes hasta la actualidad, esto, mientras da un paseo por Paris Francia y visita diversos museos, lugares de investigación y sitios icónicos que permiten introducir distintas ideas, historias, anécdotas y personajes de las matemáticas. 
+                                                En este libro pude entender que la matemática es el área del conocimiento más antigua y desarrollada que existe, incluso más antigua que la propia lógica de Aristóteles. En el primer capítulo pude comprender que la matemática no solo son números, sino que comprende una habilidad que el ser humano desarrolló al estar en contacto con la naturaleza, y que también existen otras especies que han desarrollado habilidades o tienen comportamientos matemáticos. 
                                           </p>
                                           <p>
                                                 Ha sido en este libro que pude darme cuenta que, las matemáticas nacen de la capacidad que desarrolló la especie humana de encontrar similitud o comparar cosas, en especial de la habilidad que obtuvo para hallar simetrías. De hecho, al entender que la simetría y la dualidad fueron las primeras ideas matemáticas que el ser humano plasmó, pude darme cuenta porqué tanta obsesión de los matemáticos por tener una recta numérica con números positivos y negativos, el porqué de que en álgebra abstracta exista la teoría de grupos, incluso la razón por la que el humano inventó un sistema binario y porqué después lo utilizó en computación.
@@ -228,15 +290,56 @@
                                           De alguna u otra manera, aquellas personas que leen esta obra podrán desapegarse de esos mitos que rodean a las matemáticas, podrán ver que las matemáticas son una noción natural del ser humano y no solo procedimientos o mecanismos, terminarán dándose
                                           cuenta de la inmensa importancia de esta rama del conocimiento.   
                                     </p>
+
+                                    <p></p>
+
+                                    <p><b>Hay unos fragmentos del libro que vale la pena citar:</b></p>
+
+                                    <p>En un capítulo, <cite>Mickael Launay</cite> habla sobre el grandioso Arquímedes: </p>
+                                    <blockquote>
+                                          <p>
+                                                Allí, en el año 287 a.C., un hombre cuyo ingenio e inventiva van a inaugurar un nnuvo estilo de las matemáticas. Arquímedes es del temple de los grandes inventores, de los 
+                                                solucionadores de problemas, de las personas capaces de tener ideas debidamente nuevas y revolucionarias... 
+                                          </p>
+                                          <p>
+                                                ...Mientras se daba un baño, descubrió el principio físico que hoy lleva su nombre.
+                                          </p>
+                                          <p>
+                                                ... Se cuenta que un día en que Siracusase hallaba asediada por la flota romana, Arquímedes inventó un sistema de espejos que permitió concentrar los rayos de sol para 
+                                                incendiar las naves enemigas que se aproximaban.
+                                          </p>
+                                          <p>
+                                                ... A Arquímedes le debemos los primeros grandes avances tras la pista del numero Pi... a fuerza de cálculos acaba por concluir que el valor que busca está comprendido entre dos números
+                                                que valen entre 3.1408 y 3.1428
+                                          </p>
+                                          <p>
+                                                ... En el año 212 a.C. las tropas romanas lograron entrar finalmente en Siracusa. El general Marco Claudio Marcelo, ordenó a sus soldados perdonar la vida a Arquímedes, que a la 
+                                                sazón contaba setenta y cinco años, no obstante, mientras caía su ciudad, el sabio se hallaba absorto en el estudio de un problema de geometría y no se daba cuenta de nada. Cuando un soldado
+                                                romano pasó a su lado le espetó distraídamente que tuviera cuidado con sus círculos dibujados sobre la tierra. El soldado se ofendió y lo atravesó con su espada. El general Marcelo le hizo una
+                                                tumba sublime con una esfera inscrita en un cilindo, como ilustración de uno de sus teoremas más notables. En el transcurso de los siete siglos siguientes, el Imperio romano no engendraía jamás un 
+                                                matemático de su talla.
+
+                                          </p>
+                                    </blockquote>
+
+                                    <p>   
+                                          Se menciona a su vez, una frase de <cite>Arquímedes</cite>  que me pareció muy interesante:
+                                          <q>Dadme un punto de apoyo y moveré al mundo</q>.
+                                          La he tomado, pues considero que Arquímedes fue uno de los grandes pioneros de la ingeniería y de la aplicación de las matemáticas para resolver problemas a la vida real,
+                                           así que esta frase me motiva a que, si tomo a las matemáticas o a los números como un punto de apoyo, es posible mover el mundo.
+                                    </p>
+                                    
+                                    <p>De igual forma, me gustó mucho una frase que el autor menciona sobre mi matemático favorito, <cite>Leonhard Euler</cite>:
+                                          <q>
+                                          Mejor que de nuestro juicio, debemos fiarnos del cálculo algebraico 
+                                           </q>.
+                                     </p>
+
+
                               </div>
 
                               <div class="multimedia1">
                                     <h3>Ilustraciones y videos referentes al libro:</h3>
-                                    
-                                    <figure id="videolibro2">
-                                          <iframe  width="560" height="315" src="https://www.youtube.com/embed/P5uLDZUmQIs"  title="Video del autor Mickael Launay presentando La gran novela de las matemáticas"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                          <figcaption> <i>Video del autor Mickael Launay presentando La gran novela de las matemáticas</i> </figcaption>
-                                    </figure>
                                     
 
                                     <figure id="JuicioGalileo">
@@ -251,9 +354,21 @@
                                           </figcaption>
                                     </figure>
 
+                                    <figure id="Cenefa1">
+                                          
+                                          <img src="./imagenes/libro2/cenefa1.jpg" alt="Cenefa en alfarería, Irak, 8000 a.C." title="Cenefa en alfarería, Irak, 8000 a.C.">
+                                          <figcaption>La obsesión del ser humano con las simetrías: Cenefa de un jarrón encontrado en Irak, 8000 a.C.</figcaption>      
+                                    </figure>
+
+                                 
                                     <figure id="PrimerNumero">
                                           <img  src="./imagenes/libro2/matematicasenlaprehistoria.jpg" title="Primer vestigio de un número: conteo del ciclo lunar " alt="Primer vestigio de un número: conteo del ciclo lunar ">
                                           <figcaption><i>Primer vestigio de un número: conteo del ciclo lunar </i></figcaption>
+                                    </figure>
+
+                                    <figure id="videolibro2">
+                                          <iframe  width="560" height="315" src="https://www.youtube.com/embed/P5uLDZUmQIs"  title="Video del autor Mickael Launay presentando La gran novela de las matemáticas"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                          <figcaption> <i>Video del autor Mickael Launay presentando La gran novela de las matemáticas</i> </figcaption>
                                     </figure>
                                    
                               </div>
@@ -261,7 +376,7 @@
                               
                         </article>
 
-                        <article class="Libro3">         
+                        <article id="Libro3">         
                                                  
                               <div class="titulolibro">
                                     <h2>El código Da Vinci</h2>
@@ -336,16 +451,79 @@
                                           <br>
                                           Es un libro hecho para aquellos lectores amantes del misterio, conspiraciones y ocultismo.
                                           <br><br>
-                                          Nota: Hay un libro de este mismo autor que habla sobre los Illuminati.
                                     </p>
+
+                                    <p><b>Considero que hay unas partes del libro que vale la pena resaltar debido al fuerte impacto que pueden tener en el lector:</b></p>
+                                    <p><cite>Robert Langdon</cite> en un momento de la historia revela:</p>
+                                    <blockquote>
+                                          <p>
+                                                La tradición del Priorato de Sión de perpetuar
+                                                el culto a la diosa se basa en la creencia de que, en los primeros tiempos del
+                                                cristianismo, es decir, durante los albores de la Iglesia, sus representantes
+                                                más poderosos engañaron al mundo, no le dijeron la verdad, y
+                                                propagaron mentiras que devaluaron lo femenino y decantaron la balanza a
+                                                favor de lo masculino.
+                                          </p>
+                                          <p>
+                                                El Priorato cree que Constantino y sus seguidores masculinos
+                                                lograron con éxito que el mundo pasara del paganismo matriarcal al
+                                                cristianismo patriarcal lanzando una campaña de propaganda que
+                                                demonizaba lo sagrado femenino y erradicaba definitivamente a la diosa de
+                                                la religión moderna.
+                                          </p>
+                                    </blockquote>
+
+                                    <p><cite>Dan Brown</cite> introduce un par de datos interesantes en uno de sus capítulos:</p>
+                                    <blockquote>
+                                          <p>
+                                                La Inquisición publicó el libro que algunos consideran como la
+                                                publicación más manchada de sangre de todos los tiempos: el Malleus
+                                                Malleficarum —El martillo de las brujas—, mediante el que se adoctrinaba
+                                                al mundo de los peligros de las mujeres librepensadoras e instruía al clero
+                                                sobre cómo localizarlas, torturarlas y destruirlas. Entre las mujeres a las que
+                                                la Iglesia consideraba brujas estaban las que tenían estudios, las
+                                                sacerdotisas, las gitanas, las místicas, las amantes de la naturaleza, las que
+                                                recogían hierbas medicinales, y «cualquier mujer sospechosamente
+                                                interesada por el mundo natural». A las comadronas también las mataban
+                                                por su práctica herética de aplicar conocimientos médicos para aliviar los
+                                                dolores del parto un sufrimiento que, para la Iglesia, era el justo castigo
+                                                divino por haber comido Eva del fruto del Árbol de la Ciencia, originando
+                                                así el pecado original. Durante trescientos años de caza de brujas, la Iglesia
+                                                quemó en la hoguera nada menos que a cinco millones de mujeres.
+                                          </p>
+                                          <p>
+                                                La propaganda y el derramamiento de sangre habían surtido efecto.
+                                                El mundo de hoy era la prueba viva de ello.
+                                                Las mujeres, en otros tiempos consideradas la mitad esencial de la
+                                                iluminación espiritual, estaban ausentes de los templos del mundo. No
+                                                había rabinas judías, sacerdotisas católicas ni clérigas islámicas.
+                                          </p>
+                                    </blockquote>
+
+                                    <p>Hay un fragmento de la historia con que el autor <cite>Dan Brown</cite> aumenta exponencialmente el nivel de misterio de su novela (se puede mencionar sin hacer spoiler):</p>
+                                    <blockquote>
+                                          <p>
+                                                El Priorato de Sión lo fundó en Jerusalén un rey francés llamado
+                                                Godofredo de Bouillon, en el año 1099, inmediatamente después de haber
+                                                conquistado la ciudad.
+                                                Ese rey, supuestamente, tenía en su poder un importante secreto, un
+                                                secreto que había estado en conocimiento de su familia desde los tiempos
+                                                de Jesús. Temeroso de que se perdiera a su muerte, fundó una hermandad
+                                                secreta, el Priorato de Sión, a la que encargó la misión de velar por él
+                                                transmitiéndolo de generación en generación. Durante sus años en
+                                                Jerusalén, el Priorato tuvo conocimiento de una serie de documentos
+                                                enterrados debajo de las ruinas del templo de Herodes, construido a su vez
+                                                sobre otras más antiguas, las del templo del rey Salomón. Según creían,
+                                                esos documentos confirmaban el secreto de Godofredo y eran de una
+                                                naturaleza tan explosiva que la Iglesia no pararía hasta hacerse con ellos.
+                                          </p>
+      
+                                    </blockquote>
                               </div>
 
                               <div class="multimedia1">
                                     <h3>Ilustraciones y videos referentes al libro:</h3>
-                                    <figure id="VideoLibro3">
-                                          <iframe  width="560" height="315" src="https://www.youtube.com/embed/yfxY39veLAw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                          <figcaption><i>Fragmento del audiolibro del Código Da Vinci</i></figcaption>
-                                    </figure>
+                                    
 
 
                                     <figure id="HombreVitruvio">
@@ -363,12 +541,16 @@
                                           <figcaption><i>La Gioconda: Obra importante mencionada en el libro</i></figcaption>
                                     </figure>
 
+                                    <figure id="VideoLibro3">
+                                          <iframe width="560" height="315" src="https://www.youtube.com/embed/NBqMuudtlKk" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                          <figcaption><i>Fragmento del audiolibro de El Código Da Vinci</i></figcaption>
+                                    </figure>
                               </div>
 
                               
                         </article>
 
-                        <article class="Libro4">     
+                        <article id="Libro4">     
                                                      
                               <div class="titulolibro">
                                     <h2>La cruel pedagogía del virus</h2>
@@ -400,7 +582,7 @@
 
                               <div class="personajes">
                                     <h3>Personajes:</h3>
-                                    <h4>No hay un persona explícito, solo el autor</h4>
+                                    <h4>No hay un personaje explícito, solo el autor</h4>
                                     
                               </div>
 
@@ -421,9 +603,52 @@
                                     <p>
                                           Si bien, este libro es muy nuevo (fue publicado a mediados de 2020), pero considero que me dejó muchas enseñanzas, pues rara vez me ponía a pensar sobre cómo es que el modelo económico al que estamos acostumbrados podría beneficiarnos momentáneamente, pero también someternos a tantas diferencias y causarnos tantos problemas ecológicos.
                                     </p>
-                                    <P>
+                                    <p>
                                           En lo personal, creo que el ser humano debe sensibilizarse y dejar su egoísmo a un lado, ya nos es momento para buscar la comodidad y el poder. Como estudiante y futuro profesional de la tecnología he llegado a la conclusión de que debemos estar en pro de un cambio en el sistema, considero que debido al peso que han adoptado las tecnologías de la información hoy en día, es posible unir fuerzas con las demás áreas de la ciencia, para trabajar con ética y cultura ecológica, es decir optando por realizar avances en los procesos de producción  o desarrollar tecnologías que sean sustentables ambientalmente, así como ser portavoces del conocimiento que ayude a mejorar la situación global actual.
-                                    </P>
+                                    </p>
+
+                                    <p>
+                                          <b>Hay unos fragmentos del libro que a mi opinión, son de suma importancia:</b>
+                                    </p>
+                                    <p><cite>Boaventura</cite> dice:</p>
+                                    <blockquote>
+                                          <p>
+                                                Las pandemias muestran de forma cruel cómo el capitalismo neoliberal incapacitó
+                                                al Estado para responder a las emergencias. Las respuestas que los Estados dan
+                                                a la crisis varían de un Estado a otro, pero ninguno puede disfrazar su incapacidad, su
+                                                falta de previsibilidad en relación con las emergencias que se anunciaron como inminentes
+                                                y muy probables. Estoy seguro de que en el futuro cercano esta pandemia nos dará más lecciones
+                                                y que siempre lo hará de manera cruel. Si seremos capaces de aprender es una pregunta por ahora abierta.      
+                                          </p>
+                                    </blockquote>
+
+                                    <p><cite>De Sousa</cite> también dice:</p>
+                                    <blockquote>
+                                          <p>
+                                                Solo mediante una nueva articulación entre los procesos políticos y civilizadores será posible comenzar a pensar en una
+                                                sociedad en la que la humanidad asuma una posición más humilde en el planeta en el que habita.
+                                                
+                                                Una humanidad que se acostumbre a dos ideas básicas: hay mucha más vida en el planeta que la vida humana, ya que representa solo el 0,01 % de la vida en el planeta; la defensa
+                                                de la vida del planeta en su conjunto es la condición para la continuidad de la vida  humana. De lo contrario, si la vida humana continúa cuestionando y destruyendo todas
+                                                las demás vidas que conforman el planeta Tierra, es de esperar que estas otras vidas   se defiendan de la agresión causada por la vida humana y lo hagan de maneras cada vez
+                                                más letales. En ese caso, el futuro de esta cuarentena será un breve intervalo previo a    las cuarentenas futuras.                                 
+                                          </p>
+                                          <p>
+                                                La nueva articulación presupone un giro epistemológico, cultural e ideológico que respalde las soluciones políticas, económicas y
+                                                sociales que garanticen la continuidad de una vida humana digna en el planeta. Este cambio tiene múltiples implicaciones. La primera
+                                                es crear un nuevo sentido común, la idea simple y evidente de que, especialmente en
+                                                los últimos cuarenta años, hemos vivido en cuarentena, en la cuarentena política, cultural
+                                                e ideológica de un capitalismo encerrado en sí mismo, así como en la cuarentena de la
+                                                discriminación racial y sexual sin las que el capitalismo no puede sobrevivir. La cuarentena
+                                                causada por la pandemia es, después de todo, una cuarentena dentro de otra. Superaremos
+                                                la cuarentena del capitalismo cuando seamos capaces de imaginar el planeta como nuestro hogar común y a la naturaleza como nuestra madre original a quien le debemos
+                                                amor y respeto. No nos pertenece. Le pertenecemos a ella. Cuando superemos esa cuarentena, seremos más libres ante las
+                                                cuarentenas provocadas por las pandemias. 
+                                          </p>
+                                             
+                                          
+                                    </blockquote>
+
                               </div>
 
                               <div class="multimedia1">
@@ -459,7 +684,7 @@
                               
                         </article>
 
-                        <article class="Libro5">      
+                        <article id="Libro5">      
                                                      
                               <div class="titulolibro">
                                     <h2>Los cuatro acuerdos</h2>
@@ -501,13 +726,13 @@
                                     <p>Después de eso, el autor presenta los 4 acuerdos que los Toltecas recomendaban para llevar una vida plena:</p>
                                     
                                     
-                                         <p> <b>1. Sé impecable con tus palabras</b>  </p> 
+                                         <p> <b>1. <i>Sé impecable con tus palabras</i> </b>  </p> 
                                          <p>Este acuerdo es uno de los más importantes y complicados. Se trata de manejar de forma correcta tus palabras. 
                                             Aunque suene simple, muchas veces solemos decir cosas sin pensar y herir (aunque esa no sea nuestra intención). ¡Las palabras son tan poderosas! y la forma en que las uses te puede liberar o encarcelar. Es decir, tus palabras o pensamientos tienen tanto poder que  puede cambiar una vida o destruirla.
                                          </p>
                                          
 
-                                         <p> <b>2. No te tome nada personalmente</b> </p> 
+                                         <p> <b>2. <i>No te tomes nada personalmente</i> </b> </p> 
                                          <p>Por desgracia muchas veces las personas suelen creer que son responsables de todas las cosas que suceden. El motivo por el que terminas con este tipo de pensamientos se llama importancia personal, 
                                           esta es la expresión más grande de egoísmo, ya que piensas que todos y todo gira a tu alrededor. 
                                           Para liberarte de estos pensamientos debes entender que nada de lo que hacen los demás tiene que ver contigo. 
@@ -515,13 +740,13 @@
                                           Cuando sabes lo que eres y lo que vales, te das cuenta que no necesitas darle importancia esta información o buscar aceptación en otros lados. Si sabes esto nada de lo que te digan podrá afectarte.
                                         </p>
 
-                                         <p> <b>3. No hagas suposiciones</b> </p> 
+                                         <p> <b>3. <i>No hagas suposiciones</i> </b> </p> 
                                          <p>
                                           Todas los seres humanos en algún momento terminan haciendo suposiciones sobre cualquier cosa en su vida, el problema es que al hacerlo, crees que lo que supones es cierto y terminas creando un drama de la nada.
                                           Por algo se dice que hacer una suposición es buscar un problema, si te pones a repasar todas tus tristezas y malos ratos te darás cuenta que la mayoría surgen por algún tipo de suposición.
                                           
                                          </p>
-                                         <p> <b>4. Haz siempre lo máximo que puedas</b> </p> 
+                                         <p> <b>4. <i>Haz siempre lo máximo que puedas</i> </b> </p> 
                                          <p>
                                           Miguel Ruiz dice que este acuerdo permite que los otros 3 se vuelvan un hábito en tu vida. El cuarto acuerdo se enfoca en: dar tu mejor esfuerzo sin importar las circunstancias o el resultado.
                                           Seguro alguna vez has escuchado la frase “Haz lo mejor que puedas”. 
@@ -545,12 +770,102 @@
                                           Es un libro magnífico, que puede ayudar mucho en el crecimiento personal, pero los conocimientos que el autor transmite, solo tendrán valor
                                           cuando la persona que lea este libro esté dispuesta a tomarlos y aplicarlos con constancia, nada es mágico, pero sencillamente las enseñanzas
                                           de los Toltecas son un regalo. 
+                                    </p>
+                                    <p>
+                                          <b>Hay unos fragmentos de este libro que considero que es importante citar:</b>
+                                    </p>
+
+                                    <p>
+                                          El autor <cite>Miguel Ruiz</cite> menciona en su primer capítulo:
+                                    </p>
+                                    <blockquote>
+                                          <p>
+                                                Hay algo en nuestra mente que lo juzga todo y a todos, incluso 
+                                                el clima, el perro, el gato... Todo. El Juez interior utiliza lo que está 
+                                                en nuestro Libro de la Ley para juzgar todo lo que hacemos y 
+                                                dejamos de hacer, todo lo que pensamos y no pensamos, todo lo 
+                                                que sentimos y no sentimos. Cada vez que hacemos algo que va 
+                                                contra el Libro de la Ley, el juez dice que somos culpables, que 
+                                                necesitamos un castigo, que debemos sentirnos avergonzados. 
+                                                Esto ocurre muchas veces al día, día tras día, durante todos los 
+                                                años de nuestra vida.
+                                                Hay otra parte en nosotros que recibe los juicios, y a esa parte 
+                                                la   llamamos   «la   Víctima».   La   Víctima   carga   con   la   culpa, el 
+                                                reproche y la vergüenza. Es esa parte nuestra que dice: «¡Pobre de 
+                                                mí! No soy suficientemente bueno, ni inteligente ni atractivo, y no 
+                                                merezco ser amado. ¡Pobre de mí!». El gran Juez lo reconoce y 
+                                                
+                                                dice: «Sí, no vales lo suficiente». Y todo esto se fundamenta en un 
+                                                sistema   de   creencias   en   el   que   jamás   escogimos   creer. Y   el 
+                                                sistema es tan fuerte que, incluso años después de haber entrado 
+                                                en contacto con nuevos conceptos y de intentar tomar nuestras 
+                                                propias   decisiones,   nos   damos   cuenta   de   que   esas   creencias 
+                                                todavía controlan nuestra vida.
+                                          </p>
+                                          <p>
+                                                ¿Cuántas veces pagamos por un mismo error? La respuesta es: 
+                                                miles de veces. El ser humano es el único animal sobre la tierra 
+                                                que paga miles de veces por el mismo error. Los demás animales 
+                                                pagan sólo una vez por cada error. Pero nosotros no. Tenemos una 
+                                                gran memoria. Cometemos una equivocación, nos juzgamos a 
+                                                nosotros mismos, nos declaramos culpables y nos castigamos. Si 
+                                                fuese una cuestión de justicia, con eso bastaría; no necesitamos 
+                                                repetirlo. Pero cada vez que lo recordamos,  nos juzgamos  de 
+                                                nuevo, volvemos  a considerarnos culpables y nos volvemos a 
+                                                castigar, una y otra vez, y otra, y otra más. Si estamos casados, 
+                                                también nuestra mujer o nuestro marido nos recuerda el error, y 
+                                                así volvemos a juzgarnos de nuevo, nos castigamos otra vez y nos 
+                                                volvemos a sentir culpables. ¿Acaso es esto justo?
+                                          </p>
+                                    </blockquote>
+                                    
+                                    <p>Respecto al primer acuerdo, el autor <cite>Mario Ruiz</cite> presenta un fragmento que que me gustó bastante:</p>
+                                    <blockquote>
+                                          <p>
+                                                Mediante las palabras expresas tu poder creativo, lo revelas todo. 
+                                                Independientemente de la lengua que hables, tu intención se pone 
+                                                de manifiesto a través de las palabras. Lo que sueñas, lo que 
+                                                sientes y lo que realmente eres, lo muestras por medio de las 
+                                                palabras.
+                                                No   son   sólo   sonidos   o   símbolos   escritos.   Son   una   fuerza; 
+                                                constituyen el poder que tienes para expresar y comunicar, para 
+                                                pensar y, en consecuencia, para crear los acontecimientos de tu 
+                                                vida. Puedes hablar. ¿Qué otro animal del planeta puede hacerlo? 
+                                                Las palabras son la herramienta más poderosa que tienes como 
+                                                ser humano, el instrumento de la magia. Pero son como una 
+                                                espada de doble filo: pueden crear el sueño más bello o destruir 
+                                                todo lo que te rodea.
+                                          </p>
+                                          <p>
+                                                Hace años, en Alemania, mediante el uso de las palabras, un hombre manipuló a 
+                                                un país entero de gente muy inteligente. Los llevó a una guerra 
+                                                mundial sólo con el poder de sus palabras. Convenció a otros para 
+                                                que cometieran los más atroces actos de violencia. Activó el miedo 
+                                                de la gente, y de pronto, como una gran explosión, empezaron las 
+                                                matanzas y el mundo estalló en guerra
+
+                                          </p>
+                                          <p>
+                                                La   mente   humana   es   como   un   campo   fértil   en   el   que 
+                                                continuamente   se   están   plantando   semillas.   Las   semillas   son 
+                                                opiniones,   ideas   y   conceptos.   Tú   plantas   una   semilla,   un 
+                                                pensamiento, y éste crece. Las palabras son como semillas, ¡y la 
+                                                mente  humana  es muy fértil!  El  único  problema  es  que, con 
+                                                demasiada frecuencia, es fértil para las semillas del miedo. Todas 
+                                                las mentes humanas son fértiles, pero sólo para la clase de semilla 
+                                                para la que están preparadas. Lo importante es descubrir para qué 
+                                                clase de semillas es fértil nuestra mente, y prepararla para recibir 
+                                                las semillas que adecuadas.
+                                          </p>
                                           
-                                          <br>
-                                          <br>
+                                    </blockquote>
+
+                                    <p>
                                           Nota: Existe otro libro llamado La maestría del amor, del mismo autor que Los cuatro acuerdos. Ambos son complemento, quien esté dispuesto
                                           a leer ambos, tendrá una recompensa de por vida.
                                     </p>
+
+
                               </div>
 
                               <div class="multimedia1">
@@ -604,17 +919,10 @@
 
             </main>
 
-            <aside>
-
-            </aside>
-
+           
             <footer>
                   <br>
-                  <br>
-                  
-
-                  <br>
-                  <h3 >
+                  <h3>
                       Esta página ha sido creada por yassirprograma
                   </h3>
         
@@ -626,15 +934,11 @@
                         <img  alt="logo github"  src="./imagenes/pie/gitocto.png" width="200"  > 
                   </figure>
                   
-        
                   <br>
-        
+
                   <a href="https://github.com/yassirprograma" target="_blank" > <h3  >https://github.com/yassirprograma</h3>  </a>
                   <br>
-                  <br>
-        
-                  <br>
-                  <br>
+                  
             </footer>
 
 
