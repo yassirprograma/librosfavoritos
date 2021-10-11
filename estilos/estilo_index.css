@@ -3,15 +3,204 @@
 }
 
 body{ /*selector básico por etiqueta*/
-      background-color: aquamarine;
+      /*CON ESTE ESTILO LE QUITO MÁRGENES Y PADDINGS AL BODY, Y LE DAMOS UN COLOR DE FONDO*/
+      rgb(190, 181, 215);
       margin-top: 0px;
       margin-right: 0px;
       margin-left: 0px;
-      margin-bottom: 0px; /*    ESTO ES UN ESTILO PARA QUE FUNCIONE BIEN CON LOS NAVEGADORES*/
+      margin-bottom: 0px;
       padding: 0;
+      background-color:rgb(223, 224, 221);
+      box-sizing: border-box;
 }
 
-p{
-      text-align: justify;
+.encabezado>Img{ /**/
+      width: 100%;
 }
+
+/*AQUI EMPIEZA EL ESTILO DE LA BARRA DE NAVEGACIÓN*/
+.navegacion{
+      background-color: rgb(129, 198, 207, 0.5); /*color de fondo para el menú*/
+      margin-left: 5%; /*márgenes laterales*/
+      margin-right: 5%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      font-family:cursive; /*un tipo de letra que se vea más bonio*/
+      box-sizing: border-box;    
+      border-radius: 10px;
+}
+.navegacion>p{
+      text-align: center; /*centramos el título del menú*/
+      font-size:x-large; /*un tamaño que lo resalte*/
+}
+.navegacion>ul{    
+  list-style: none; /*le quitamos los puntos de lista*/
+  display:grid; /*para que se muestre de manera acomodada*/
+  grid-template-columns: 20% 20% 20%  20% 20%;
+}
+.navegacion>ul>li{ 
+      text-align: center;
+      margin: 10px;
+}
+.navegacion>ul>li:hover{ /*para que cada elemento del menú cambie de color cuando le pasemos el mouse por encima*/
+      background-color: rgba(255, 0, 212, 0.281); /*color de fondo para el menú*/
+}
+.navegacion>ul>li>a{  
+      /*el estilo para los a del menú*/
+      text-decoration: none;
+      color: black;
+}
+/*FIN ESTILOS NAVEGACIÓN*/
+
+
+main{ /*selector básico por etiqueta*/
+      box-sizing: border-box; /*LE DAMOS BOX SIZING AL MAIN PARA QUE NO SE DESBORDE*/
+      width: 100%; /*QUE EL MAIN OCUPE POR COMPLETO EL ANCHO*/
+}
+
+#presentacion{ /*estilos donde me presento con mi nombre*/
+      padding: 5%;
+      box-sizing: border-box;
+}
+
+
+footer{ /*estilo para el footer*/
+      width: 100%;
+      background-color: rgba(38, 235, 219, 0.219);
+      text-align: center;
+}
+
+footer img{
+      width: 20%; /*estilo para la imagen del footer*/
+}
+
+
+
+section{ /*selector básico por etiqueta*/
+  padding-top:50px; /*LE DAMOS UN MARGEN FIJO A LAS SECCIONES*/
+  padding-bottom: 10px;
+  width: 100%; /*QUE LA SECCIÓN OCUPE TODO LO DEL MAIN*/
+}
+
+article{ /*selector básico por etiqueta*/
+      margin: 5%; /*LE DAMOS UN MARGEN DE PORCENTAJE A LOS ARTICLE DE CADA LIBR*/
+      border-radius: 10px;
+      background-color: rgba(213, 202, 175, 0.5);
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 2%;  
+      padding-bottom: 5%;
+      z-index: 2;
+      box-sizing: border-box;
+}
+
+p{ /*selector básico por etiqueta*/
+      text-align: justify;  /*TODOS LOS PÁRRAFOS LOS QUEREMOS JUSTIFICADOS*/
+}
+
+
+#presentacion{ /*selector básico por identificador*/
+  text-align: center; /*LA PRESENTACIÓN DONDE DIGO MI NOMBRE, LA CENTRAMOS*/
+}
+
+.tituloseccion, .titulolibro{ /*selector por agrupamiento de clases*/
+  text-align: center; /*CENTRAMOS EL TÍTULO DE CADA SECCIÓN (GÉNERO LITERARIO) y el título de cada*/
+  padding-top: 20px;
+}
+
+
+.grupo1, .grupo2{ /*selector por agrupamiento de clases*/
+  /*el grupo 1 contiene el div de portada y el div de datos de autor, mientras que el grupo 2 contiene el div de datos bibliográficos y el div de personajes,
+  esto es para todos los libros*/
+
+  /*lo que se hace es mostrar en forma de una rejilla de 2 columnas por 1 fila, es decir, el ancho del grupo se divide en dos mitades
+  y en cada mitad muestra  el div de portada o div de datos bibliográficos y en la otra mitad muestra el div de autor o el div de personajes*/
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+
+}
+
+
+.portada>figure{    /*selector por hijo*/
+      text-align: center; /*centramos todo lo que tenga la figura de portada*/
+}
+
+.portada img{ /*selector por descendiente*/
+      width: 50%; /*ESTILO PARA QUE  LAS IMÁGENES DE TODAS LAS PORTADAS TENGAN EL MISMO ANCHO*/
+      /*es el 50% de su padre portada, que ya está delimitado según el grid*/
+}
+
+
+.autoria>figure, .autoria>h3{ /*selector por hijo y agrupamiento*/
+      text-align: center;
+}
+.autoria img{ /*selector por descendiente*/
+      width: 40%; /*ESTILO PARA QUE  LAS IMÁGENES DE TODAS LOS AUTORESLE TENGAN EL MISMO ANCHO*/
+      /*es el 50% de su padre autoría, que ya está delimitado según el grid*/
+}
+
+
+
+.multimedia figure{ /*todas los elementos de figura quiero que se encuentren centrados*/
+      text-align: center;
+}
+
+.imagenes{ /*estilo para el div que contiene imagenes*/
+  text-align: center;
+  width: 99%;
+  display: grid;
+  grid-template-columns: 50% 50%;  /*QUIERO QUE LAS figuras APAREZCAN EN DOS COLUMNAS, la mitad del ancho de multimeda para cada una*/
+  
+}
+
+.imagenes img{ /*para que las imágenes de multimedia tengan 80% del ancho de la figura*/
+      width:60%;
+}
+
+.multimedia iframe{ /*los videos de la multimedia deben tener un tamaño fijo*/
+      width: 480px;
+      height:240px;
+}
+
+      
+
+#GeneroCientifico{
+      background-color: rgba(243, 168, 124, 0.534); /*UN COLOR DE FONDO PARA LA SECCIÓN DE GÉNERO CIENTÍFICO*/
+}
+#GeneroCientifico .tituloseccion, #GeneroCientifico .titulolibro  { /*los titulos del género científico deben ser del mismo color*/
+      color: rgb(0, 56, 112);
+}
+
+
+#GeneroMisterio{
+       background-color: rgba(191, 253, 129, 0.466);  /*UN COLOR DE FONDO PARA LA SECCIÓN DE GÉNERO MISTERIO*/
+}
+#GeneroMisterio .tituloseccion, #GeneroMisterio .titulolibro { /*los titulos del género misterio deben ser del mismo color*/
+      color: rgb(180, 16, 106);
+}
+
+
+
+#GeneroSociologia{
+      background-color: rgba(250, 168, 243, 0.342);  /*UN COLOR DE FONDO PARA LA SECCIÓN DE GÉNERO SOCIOLOGÍA*/
+}
+
+#GeneroSociologia .tituloseccion, #GeneroSociologia .titulolibro { /*los titulos del género sociologia deben ser del mismo color*/
+      color: rgb(199, 108, 23);
+}
+
+
+
+#GeneroAutoayudaSuperacion{
+      background-color: rgba(143, 188, 255, 0.342);  /*UN COLOR DE FONDO PARA LA SECCIÓN DE GÉNERO AUTROAYUDA*/   
+}
+
+#GeneroAutoayudaSuperacion .tituloseccion, #GeneroAutoayudaSuperacion .titulolibro { /*los titulos del género autoayuda deben ser del mismo color*/
+      color: rgb(2, 107, 34);
+}
+
+
+
+
 
