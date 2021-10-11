@@ -84,7 +84,6 @@ section{ /*selector básico por etiqueta*/
 
 article{ /*selector básico por etiqueta*/
       margin: 5%; /*LE DAMOS UN MARGEN DE PORCENTAJE A LOS ARTICLE DE CADA LIBR*/
-      border-radius: 10px;
       background-color: rgba(213, 202, 175, 0.5);
       padding-left: 5%;
       padding-right: 5%;
@@ -93,6 +92,8 @@ article{ /*selector básico por etiqueta*/
       z-index: 2;
       box-sizing: border-box;
 }
+
+
 
 p{ /*selector básico por etiqueta*/
       text-align: justify;  /*TODOS LOS PÁRRAFOS LOS QUEREMOS JUSTIFICADOS*/
@@ -138,6 +139,16 @@ p{ /*selector básico por etiqueta*/
 .autoria img{ /*selector por descendiente*/
       width: 40%; /*ESTILO PARA QUE  LAS IMÁGENES DE TODAS LOS AUTORESLE TENGAN EL MISMO ANCHO*/
       /*es el 50% de su padre autoría, que ya está delimitado según el grid*/
+}
+
+
+article, .portada, .autoria,.personajes, .datosbiblio, .resumen, .opinion, .multimedia{ /*para identificar mejor cada parte del article*/
+      border-radius: 10px; /*un borde redondeado para que se vea mejor*/
+      padding: 2%;
+      border-color:rgba(103, 107, 107, 0.377);
+      border-width: 1px;
+      border-style: solid;
+      margin: 2%;
 }
 
 
